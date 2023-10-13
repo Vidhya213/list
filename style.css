@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-color: black;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: darkorchid;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.grocery-form {
+  text-align: center;
+}
+
+.alert {
+  color: red;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#grocery {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: black;
+}
+.grocery-container {
+  text-align: center;
+}
+
+.clear-btn {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.clear-btn:hover {
+  background-color: red;
+}
+
+.grocery-item {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  color: green;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.edit-btn:hover,
+.delete-btn:hover {
+  color: aqua;
+}
